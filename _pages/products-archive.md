@@ -1,1 +1,5 @@
-prducts file
+---
+title: "Products"
+layout: products
+permalink: /products/
+---
