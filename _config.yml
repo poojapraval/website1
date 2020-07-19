@@ -110,9 +110,17 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
+services_archive:
   type: liquid
-  path: /categories/
-tag_archive:
+  path: /services/
+product_archive:
   type: liquid
-  path: /tags/
+  path: /products/
+about_archive:
+  type: liquid
+  path: /about/
+contact_archive:
+  type: liquid
+  path: /contact/
+
+  
