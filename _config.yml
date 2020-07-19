@@ -20,9 +20,7 @@
 title: CIRCUIT DATA INC
 subtitle:  a tagline for the company             #A short tagline that appears below the title in site masthead.
 email: info.circuitdata@gmail.com, sales.circuitdata@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Descriptino about the company circuit data
-twitter_username: must create
+description: >- # this means to ignore newlines until "baseurl:" Description about the company circuit data
 minimal_mistakes_skin: contrast #"default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint" ,plum, sunrise
 search: true
 logo: "/assets/images/stock1.jpg"
@@ -35,21 +33,17 @@ header:
   
   
 
-
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -58,8 +52,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
-
 
 footer:
   links:
@@ -90,8 +82,8 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: splash
+      
 
 services_archive:
   type: liquid
