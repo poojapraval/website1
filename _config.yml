@@ -99,6 +99,9 @@ about_archive:
 contact_archive:
   type: liquid
   path: /contact/
+team_archive:
+  type: liquid
+  path: /team/
   
   #author:
  # name   : "First Lastname"
