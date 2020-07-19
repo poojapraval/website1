@@ -24,12 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:" Description abo
 minimal_mistakes_skin: contrast #"default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint" ,plum, sunrise
 search: true
 logo: "/assets/images/stock1.jpg"
-masthead_title: "CIRCUIT DATA INC"
 breadcrumbs: true
 layout: splash
 header:
-  overlay_image: "/assets/images/stock1.jpg"
+  teaser: /assets/images/stock2.jpg
+  overlay_image: /assets/images/stock1.jpg
   caption: "Photo credit: "
+ teaser: /assets/images/stock1.jpg
+ 
   
   
 
