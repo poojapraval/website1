@@ -25,12 +25,12 @@ minimal_mistakes_skin: contrast #"default" , "air", "aqua", "contrast", "dark", 
 search: true
 logo: "/assets/images/stock1.jpg"
 breadcrumbs: true
-layout: splash
-header:
-  teaser: /assets/images/stock2.jpg
-  overlay_image: /assets/images/stock1.jpg
-  caption: "Photo credit: "
- teaser: /assets/images/stock1.jpg
+#layout: splash
+#header:
+#  teaser: /assets/images/stock2.jpg
+#  overlay_image: /assets/images/stock1.jpg
+#  caption: "Photo credit: "
+ #teaser: /assets/images/stock1.jpg
  
   
   
@@ -39,9 +39,9 @@ header:
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /_posts/page:num/
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /_posts/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
